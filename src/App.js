@@ -14,12 +14,15 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={
-          <>
-            <Intro />
-            <Work />
-          </>
-        } />
+        <Route
+          path="/"
+          element={
+            <>
+              <Intro />
+              <Work />
+            </>
+          }
+        />
         <Route path="/Education" element={<Education />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/Contact" element={<Contact />} />

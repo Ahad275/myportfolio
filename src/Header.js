@@ -3,7 +3,6 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
 function Header() {
   const [menuActive, setMenuActive] = useState(false);
 
@@ -27,10 +26,9 @@ function Header() {
           <li><Link to="/Education" onClick={() => setMenuActive(false)}>Education</Link></li>
           <li><Link to="/Project" onClick={() => setMenuActive(false)}>Project</Link></li>
           <li><Link to="/Contact" onClick={() => setMenuActive(false)}>Contact</Link></li>
-          <li><a href="/Mohd_Ahad_Full_stack_developer_CV_12115116.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuActive(false)}>Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1cT8nKDtObxOH13sOibdYrJadJkaJ78Nk/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" onClick={() => setMenuActive(false)}>Resume</a></li>
         </ul>
       </nav>
-      
     </header>
   );
 }

@@ -8,7 +8,7 @@ import mongodblogo from './assets/mongodblogo.png';
 import reactlogo from './assets/reactlogo.jpeg';
 import advreactlogo from './assets/advreactlogo.jpeg';
 import nodejslogo from './assets/nodejslogo.png';
-import Stanford_Course_Logo from './assets/Standard_Course_Logo.png';
+import computernetworkingimg from './assets/computernetworkingimg.webp';
 import javascriptlogo from './assets/Javascriptlogo.png';
 
 function Education() {
@@ -132,16 +132,16 @@ function Education() {
                             <h4>Server-Side JavaScript With Node.js</h4>
                         </div>
                         <div className="cert1">
-                            <a href="/DAA.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src={Stanford_Course_Logo} alt="Stanford Course Logo" />
+                            <a href="https://coursera.org/verify/DSGTDAG2XCLQ" target="_blank" rel="noopener noreferrer">
+                                <img src={computernetworkingimg} alt="Stanford Course Logo" />
                                 <div className="content-details fadeIn-top">
                                     <h3 className="content-title">Certificate</h3>
                                 </div>
                             </a>
-                            <h4>Design & Analysis Of Algorithm</h4>
+                            <h4> The Bits and Bytes of Computer Networking</h4>
                         </div>
                         <div className="cert1">
-                            <a href="/Javascriptcertificate.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/1gjGy0h_x9QrEYpZTpkC9XI_OtVN4ATnp/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                                 <img src={javascriptlogo} alt="JavaScript Logo" />
                                 <div className="content-details fadeIn-top">
                                     <h3 className="content-title">Certificate</h3>

@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-@media (max-width: 770px) {
+/* @media (max-width: 770px) {
     .footmain{
         width: 154vw;
     }
@@ -20,4 +20,4 @@
     .footmain{
         width: 313vw;
     }
-}
+} */
