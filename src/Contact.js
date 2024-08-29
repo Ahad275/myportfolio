@@ -61,7 +61,11 @@ function Contact() {
                     </li>
                 </ul>
             </nav>
-            <div className="resumebutton">See My Resume</div>
+            <div className="resumebutton">
+  <a href="https://drive.google.com/file/d/1cT8nKDtObxOH13sOibdYrJadJkaJ78Nk/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' , color: 'white'} }>
+    See My Resume
+  </a>
+</div>
         </div>
     );
 }

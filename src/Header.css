@@ -5,14 +5,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #edf9fe;
+    /* background-color: #edf9fe; */
     position: fixed;
     width: 100%;
     z-index: 10;
+    background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #211f1fd4 100%), url(http://localhost:3000/myportfolio/static/media/header_background.789f7e6….jpg);
+
 }
 
 .logo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     display: flex;
@@ -23,14 +25,14 @@
 
 .logo span {
     margin: 0 5px;
-    color: rgb(0, 25, 85);
+    color: #2F3C7E;
     font-family: cursive;
     cursor: pointer;
 }
 
 .namelinkhome {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
 .Headitem ul {
@@ -47,7 +49,7 @@
 
 .Headitem ul li a {
     text-decoration: none;
-    color: black;
+    color: #FBEAEB;
     padding: 8px 16px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -66,11 +68,13 @@
 /* Transparent container */
 .transparent-container {
     position: fixed;
-    top: 60px; /* Adjust according to your header height */
+    top: 60px;
+    /* Adjust according to your header height */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
     z-index: 9;
 }
 
@@ -82,16 +86,24 @@
         width: 100%;
         background-color: #f1f1f1;
         position: absolute;
-        top: 60px; /* Adjust according to your header height */
+        top: 60px;
+        /* Adjust according to your header height */
         left: 0;
         padding: 20px 0;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
-    
+
     .Headitem.active ul {
         display: flex;
+        background: rgb(4 4 4);
+        color: #FBEAEB;
+        text-align: center;
+        opacity: 0.9;
     }
-    
+    .Headitem.active ul:hover{
+        color: #2F3C7E;
+    }
+
     .menu-button {
         display: block;
         background-color: transparent;
@@ -101,11 +113,11 @@
         position: absolute;
         right: 20px;
     }
-    
+
     .menu-button i {
         color: #333;
     }
-    
+
     .menu-button:hover i {
         color: #555;
     }

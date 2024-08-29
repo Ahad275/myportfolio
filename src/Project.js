@@ -75,7 +75,7 @@ function Project() {
                         </div>
                         <div className="cert1">
                             <a
-                                href="https://coursera.org/verify/B6PWG4G8MFY9"
+                                href="https://github.com/Ahad275/textutils"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -87,7 +87,7 @@ function Project() {
                             <h4>TextUtils <br /> A Text Editor App</h4>
                         </div>
                         <div className="cert1">
-                            <a href="/DAA.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Ahad275/Currency-coverter" target="_blank" rel="noopener noreferrer">
                                 <img src={currencyconvt} alt="Stanford Course Logo" />
                                 <div className="content-details fadeIn-top">
                                     <h3 className="content-title">See project</h3>
@@ -96,7 +96,7 @@ function Project() {
                             <h4> Exchango <br /> A Currency Convertor App </h4>
                         </div>
                         <div className="cert1">
-                            <a href="/Javascriptcertificate.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Ahad275/scientificCalculator" target="_blank" rel="noopener noreferrer">
                                 <img src={scientificcalci} alt="JavaScript Logo" />
                                 <div className="content-details fadeIn-top">
                                     <h3 className="content-title">See Project</h3>

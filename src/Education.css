@@ -1,6 +1,6 @@
 /* Global Styles */
 .pagebody {
-    background-color: rgb(237, 249, 254);
+    background: rgb(4 4 4);
     margin-bottom: 0;
     width: 100%; /* Ensure full width */
 }
@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: row;
     padding-top: 20vh;
-    background-color: rgb(237, 249, 254);
+    background: rgb(4 4 4 );
+    
 }
 
 .mainimg img {
@@ -27,16 +28,18 @@
 .contenthead h2 {
     font-size: 3rem;
     font-family: cursive;
+    color: #2F3C7E;
 }
 
 .contenthead h3 {
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBEAEB;
 }
 
 /* Education */
 .colldegree {
-    background-color: rgb(237, 249, 254);
+    background: rgb(4 4 4);
     width: 100%; /* Ensure full width */
 }
 
@@ -44,13 +47,15 @@
     font-size: 3rem;
     font-family: cursive;
     text-align: center;
+    color: #2F3C7E;
 }
 
 .edu1, .edu2, .edu3 {
     display: flex;
     align-items: center;
     margin: 1.25rem 0;
-    background-color: rgb(237, 249, 254);
+    background: rgb(4 4 4);
+
 }
 
 .colllogo img, .schlogo img {
@@ -73,12 +78,14 @@
     font-size: 1.8rem;
     display: flex;
     justify-content: space-between;
+    color: #2F3C7E;
 }
 
 .graduate p, .Intermediate p, .matriculation p {
     font-style: italic;
     display: flex;
     justify-content: space-between;
+    color: #FBEAEB;
 }
 
 .schlogo, .colllogo {
@@ -91,6 +98,7 @@
     margin-top: 2.5rem;
     font-size: 3rem;
     text-align: center;
+    color: #2F3C7E;
 }
 
 .certificate {
@@ -123,6 +131,7 @@
     font-family: cursive;
     font-size: 1.25rem;
     text-align: center;
+    color: #f3ecec;
 }
 
 .content-details {
@@ -266,6 +275,7 @@
     .cert1 {
         width: 80vw;
         margin-bottom: 2rem;
+        height: 40vh;
     }
 
     .cert1 img {

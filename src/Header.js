@@ -10,6 +10,8 @@ function Header() {
     setMenuActive(!menuActive);
   };
 
+  console.log('Header rendered');
+
   return (
     <header className="header">
       <div className="logo">
@@ -22,10 +24,11 @@ function Header() {
       </button>
       <nav className={`Headitem ${menuActive ? 'active' : ''}`}>
         <ul>
-          <li><Link to="/" onClick={() => setMenuActive(false)}>Home</Link></li>
+          <li><Link to="/Homepage" onClick={() => setMenuActive(false)}>Home</Link></li>
           <li><Link to="/Education" onClick={() => setMenuActive(false)}>Education</Link></li>
           <li><Link to="/Project" onClick={() => setMenuActive(false)}>Project</Link></li>
           <li><Link to="/Contact" onClick={() => setMenuActive(false)}>Contact</Link></li>
+       
           <li><a href="https://drive.google.com/file/d/1cT8nKDtObxOH13sOibdYrJadJkaJ78Nk/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" onClick={() => setMenuActive(false)}>Resume</a></li>
         </ul>
       </nav>

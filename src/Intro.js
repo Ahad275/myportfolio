@@ -15,6 +15,7 @@ function Intro() {
     return (
         <div className="pagebody">
             <div className="main">
+
                 <div className="intro">
                     <h3 className='myname'>Mohammad Ahad</h3>
                     <p className="description">
